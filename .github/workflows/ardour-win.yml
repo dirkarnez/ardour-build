@@ -4,9 +4,9 @@ on:
   push:
     branches: 
       - win
-    paths-ignore:
-      - 'README.md'
-      - 'LICENSE'
+    # paths-ignore:
+    #   - 'README.md'
+    #   - 'LICENSE'
   pull_request:
     branches: 
       - win
